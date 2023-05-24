@@ -25,21 +25,9 @@ Each library has its own Cypress component tests. It showcases cypress component
     nx serve myapp
     ```
 
-## Testing the Libraries
-
-### mylib-a
-
-To test the `TitleWidget` component in `mylib-a`, run the following command:
-
-```bash
-nx run mylib-a:component-test --watch
+4. Run the component tests
 ```
-
-### mylib-b
-
-To test the `TitleWidgetB` component in `mylib-b`, run the following command:
-
-```bash
+nx run mylib-a:component-test --watch
 nx run mylib-b:component-test --watch
 ```
 
